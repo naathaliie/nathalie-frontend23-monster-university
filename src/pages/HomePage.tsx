@@ -1,4 +1,4 @@
-import "./HomePage.css";
+import "../pages/ErrorPage";
 
 function HomePage() {
   return (
