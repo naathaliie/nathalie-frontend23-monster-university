@@ -29,7 +29,10 @@ först då skall vi rendera ut diven med all info. Innan dess visar vi bara text
         <li>Ålder: {foundMonster.age} år</li>
         <li>Sort: {foundMonster.species}</li>
         <li>Är ond: {foundMonster.isEvil ? "Ja" : "Nej"}</li>
-        <li>Speciella förmågor: {foundMonster.abilities.join(" ,")}.</li>
+        <li>Speciella förmågor: {foundMonster.abilities.join(", ")}.</li>
+        <li>
+          <img src={foundMonster.avatar} alt="bild" />
+        </li>
       </ul>
     </div>
   ) : (

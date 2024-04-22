@@ -6,18 +6,26 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage.tsx";
 import Monsters from "./pages/Monsters.tsx";
 import Monster from "./pages/Monster.tsx";
+import NavBar from "./components/NavBar/NavBar.tsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <HomePage />,
+    element: <NavBar />,
     errorElement: <ErrorPage />,
-  },
-  {
-    path: "/monsters",
-    element: <Monsters />,
+    children: [
+      /* NavBar skall vara konstant och HomePage skall synas som default. resterande skall renderas */
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/monsters",
+        element: <Monsters />,
 
-    children: [{ path: "/monsters/:monsterId", element: <Monster /> }],
+        children: [{ path: "/monsters/:monsterId", element: <Monster /> }],
+      },
+    ],
   },
 ]);
 
