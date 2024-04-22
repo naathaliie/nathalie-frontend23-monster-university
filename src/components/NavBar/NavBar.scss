@@ -1,0 +1,19 @@
+.NavBar {
+  border: solid black 2px;
+  height: 2rem;
+  display: flex;
+  place-items: center;
+  justify-content: space-between;
+  margin: 5px 1px 0px 1px;
+  padding: 0px 3px 0px 3px;
+
+  .nav-links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav-title {
+    .title {
+    }
+  }
+}

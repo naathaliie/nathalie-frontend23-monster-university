@@ -1,9 +1,10 @@
+import NavBar from "../components/NavBar/NavBar";
 import "../pages/ErrorPage";
 
 function HomePage() {
   return (
     <div className="HomePage">
-      <h1>HomePage</h1>
+      <NavBar />
     </div>
   );
 }

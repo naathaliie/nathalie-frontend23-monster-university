@@ -1,9 +1,8 @@
-import Monster from "../pages/Monster";
 import MonstersJSON from "../data/monsters.json";
 import { ACTIONS } from "../components/context/MonsterReducer";
 
  //Strukturen för ett monster, ett objekt
- export type Monster = {
+ export type OneMonster = {
     id: string;
     name: string;
     age: number;
@@ -15,7 +14,7 @@ import { ACTIONS } from "../components/context/MonsterReducer";
 
 //Strukturen för alla monster, ett objekt av en Monsters array av monster-objekt
 export type initialMonsterState = {
-    monsters: Monster[],
+    monsters: OneMonster[],
 };
 
 //InitialaMonsters
