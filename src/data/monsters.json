@@ -2,6 +2,7 @@
   "monsters": [
     {
       "id": "1",
+      "avatar": "james_sullivan.png",
       "firstName": "James",
       "lastName": "Sullivan",
       "class": "Skrövlande",
@@ -26,6 +27,7 @@
     },
     {
       "id": "2",
+      "avatar": "mike_wazowski.png",
       "firstName": "Mike",
       "lastName": "Wazowski",
       "class": "Ettöga",
@@ -50,6 +52,7 @@
     },
     {
       "id": "3",
+      "avatar": "randall_boggs.png",
       "firstName": "Randall",
       "lastName": "Boggs",
       "class": "Kameleont",
@@ -74,6 +77,7 @@
     },
     {
       "id": "4",
+      "avatar": "celia_mae.png",
       "firstName": "Celia",
       "lastName": "Mae",
       "class": "Medusa",
@@ -97,31 +101,58 @@
       "hometown": "Monstropolis"
     },
     {
-      "id": "5",
-      "firstName": "Roz",
-      "lastName": "",
-      "class": "Byråkrat",
-      "program": "Byråkrati",
-      "description": ["Streng", "Sträng", "Många dokument"],
+      "id": "11",
+      "firstName": "Celia",
+      "lastName": "Lost",
+      "class": "Gorgon",
+      "program": "Serpentinska skulpturer",
+      "description": ["Eleganta", "Mystiska", "Förfinade"],
       "appearance": {
-        "numberOfEyes": 1,
+        "numberOfEyes": 30,
         "numberOfTentacles": 0,
-        "color": "Grå",
-        "skinOrFurType": "Skrynklig",
-        "hasHorns": false
+        "color": "Lila",
+        "skinOrFurType": "Skimrande fjäll",
+        "hasHorns": true
       },
-      "diet": "okänd",
-      "interests": ["Byråkrati", "Regler", "Pappersarbete"],
-      "courses": ["Arkivering", "Regelverk", "Pappersarbete"],
+      "diet": "vegetarian",
+      "interests": ["Konst", "Kultur", "Teater"],
+      "courses": ["Skulptering", "Konsthistoria", "Teaterkonst"],
       "grades": [
-        { "course": "Arkivering", "grade": "B+" },
-        { "course": "Regelverk", "grade": "A" },
-        { "course": "Pappersarbete", "grade": "A-" }
+        { "course": "Skulptering", "grade": "A" },
+        { "course": "Konsthistoria", "grade": "A+" },
+        { "course": "Teaterkonst", "grade": "A-" }
       ],
       "hometown": "Monstropolis"
-    },
+    },    
+    {
+      "id": "5",
+      "avatar": "art.png",
+      "firstName": "Art",
+      "lastName": "",
+      "class": "Konstig",
+      "program": "Kreativ konst",
+      "description": ["Färgstark", "Excentrisk", "Förvirrande"],
+      "appearance": {
+        "numberOfEyes": 10,
+        "numberOfTentacles": 0,
+        "color": "Regnbåge",
+        "skinOrFurType": "Pälsig",
+        "hasHorns": true
+      },
+      "diet": "okänd",
+      "interests": ["Konst", "Uttryck", "Skapande"],
+      "courses": ["Konstteknik", "Surrealism", "Performancekonst"],
+      "grades": [
+        { "course": "Konstteknik", "grade": "A-" },
+        { "course": "Surrealism", "grade": "B+" },
+        { "course": "Performancekonst", "grade": "A" }
+      ],
+      "hometown": "Monstropolis"
+    }
+    ,
     {
       "id": "6",
+      "avatar": "george_sandersson.png",
       "firstName": "George",
       "lastName": "Sanderson",
       "class": "Fluffig",
@@ -146,54 +177,33 @@
     },
     {
       "id": "7",
-      "firstName": "Needleman",
-      "lastName": "Needleman",
-      "class": "Dubbelhuvud",
-      "program": "Dörröppning",
-      "description": ["Två huvuden", "Enkla", "Lojala"],
-      "appearance": {
-        "numberOfEyes": 4,
-        "numberOfTentacles": 0,
-        "color": "Brun",
-        "skinOrFurType": "Slemmig",
-        "hasHorns": false
-      },
-      "diet": "okänd",
-      "interests": ["Dörrar", "Öppning", "Stängning"],
-      "courses": ["Dörrhantering", "Dörrteknik", "Öppningsstrategier"],
-      "grades": [
-        { "course": "Dörrhantering", "grade": "B" },
-        { "course": "Dörrteknik", "grade": "B-" },
-        { "course": "Öppningsstrategier", "grade": "C+" }
-      ],
-      "hometown": "Monstropolis"
-    },
-    {
-      "id": "8",
-      "firstName": "Roz's",
-      "lastName": "Assistant",
-      "class": "Pappersknugare",
-      "program": "Byråkrati",
-      "description": ["Diskret", "Effektiv", "I bakgrunden"],
+      "avatar": "don_carlton.png",
+      "firstName": "Don",
+      "lastName": "Carlton",
+      "class": "Mogen",
+      "program": "Företagsledning",
+      "description": ["Vänlig", "Klok", "Erfaren"],
       "appearance": {
         "numberOfEyes": 2,
         "numberOfTentacles": 0,
         "color": "Grå",
-        "skinOrFurType": "Kostym",
+        "skinOrFurType": "Slät",
         "hasHorns": false
       },
       "diet": "okänd",
-      "interests": ["Arkivering", "Pappersarbete", "Kaffe"],
-      "courses": ["Kaffekokning", "Pappershantering", "Skrivbordsdans"],
+      "interests": ["Mentorskap", "Nätverkande", "Affärsstrategi"],
+      "courses": ["Företagsstrategi", "Ledarskap", "Ekonomi"],
       "grades": [
-        { "course": "Kaffekokning", "grade": "A" },
-        { "course": "Pappershantering", "grade": "A-" },
-        { "course": "Skrivbordsdans", "grade": "B" }
+        { "course": "Företagsstrategi", "grade": "A-" },
+        { "course": "Ledarskap", "grade": "A" },
+        { "course": "Ekonomi", "grade": "B+" }
       ],
       "hometown": "Monstropolis"
-    },
+    }
+    ,
     {
       "id": "9",
+      "avatar": "charlie_proctor.png",
       "firstName": "Charlie",
       "lastName": "Proctor",
       "class": "Nattuggla",
@@ -218,6 +228,7 @@
     },
     {
       "id": "10",
+      "avatar":"kladdis.png",
       "firstName": "Scott",
       "lastName": "Squibbles",
       "class": "Blob",
@@ -240,13 +251,34 @@
       ],
       "hometown": "Monstropolis"
     }
-    
-    
-    
-    
-    
-    
-    
+  ],
+  "ceo":[
+    {
+      "id": "11",
+      "avatar": "harry_waternoose.png",
+      "firstName": "Harry",
+      "middleName": "James",
+      "lastName": "Waternoose",
+      "title": "CEO",
+      "company": "Monsters, Inc.",
+      "description": "En respekterad och erfaren ledare inom Monstropolis-samhället. Som VD för Monsters, Inc., tar Harry ansvar för att leda företaget genom både framgångar och utmaningar. Han är känd för sitt beslutsamma ledarskap och sitt engagemang för att upprätthålla Monstropolissamhällets välbefinnande.",
+      "appearance": {
+        "numberOfEyes": 4,
+        "numberOfTentacles": 0,
+        "color": "Blå",
+        "skinOrFurType": "Slät",
+        "hasHorns": false
+      },
+      "achievements": [
+        "Utmärkt sig inom företagsledning och strategi",
+        "Bidragit till att göra Monsters, Inc. till en av de ledande företagen inom skrämmarbranschen",
+        "Har etablerat långsiktiga partnerskap med andra företag inom Monstropolis"
+      ],
+      "interests": ["Företagsstrategi", "Ekonomi", "Samhällsansvar"],
+      "hometown": "Monstropolis"
+    }
     
   ]
 }
+
+

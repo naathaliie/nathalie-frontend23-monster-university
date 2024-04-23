@@ -1,0 +1,15 @@
+.Monsters {
+  border: solid 2px darkcyan;
+
+  .monster-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .nav-link {
+        margin-bottom: 5px;
+    }
+  }
+}
