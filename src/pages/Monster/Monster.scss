@@ -1,6 +1,18 @@
 .Monster{
+    animation: Visible 2s forwards;//Forwards gör att animationen "behåller" det sista tillståndet av animationen. Tas detta bort återgår opacity till 0 efter animationen är slut
+    opacity: 0; /* Sätt opacity till 0 för att gömma .monster initialt */
+    border: 2px greenyellow solid;
+    max-width: 50%;
+    position: absolute;
+    top: 5rem;
+    left: 40rem;
     img{
         width: 10rem;
         height: 10rem;
     }
+}
+
+@keyframes Visible {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
 }

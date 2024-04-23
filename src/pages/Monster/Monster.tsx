@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { monsterContext } from "../../components/context/MonsterContext";
 import { OneMonster } from "../../types/types";
