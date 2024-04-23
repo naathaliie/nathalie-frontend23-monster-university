@@ -1,6 +1,7 @@
 import { useContext, useState } from "react";
 import { monsterContext } from "../context/MonsterContext";
 import { NavLink } from "react-router-dom";
+import "./MonsterBox.scss";
 
 const MonsterBox = () => {
   //För att flytta på monsterlinks och visa ett monster
