@@ -27,11 +27,13 @@ först då skall vi rendera ut diven med all info. Innan dess visar vi bara text
  */ return foundMonster ? (
     <div className="Monster">
       <ul>
-        <li>Namn: {foundMonster.name}</li>
-        <li>Ålder: {foundMonster.age} år</li>
-        <li>Sort: {foundMonster.species}</li>
-        <li>Är ond: {foundMonster.isEvil ? "Ja" : "Nej"}</li>
-        <li>Speciella förmågor: {foundMonster.abilities.join(", ")}.</li>
+        <li>
+          Namn: {foundMonster.firstName} {foundMonster.lastName}
+        </li>
+        <li>Typ: {foundMonster.class}</li>
+        <li>Kurs: {foundMonster.program}</li>
+        <li>Egenskaper: {foundMonster.description}</li>
+        <li>Beskrivning: {foundMonster.appearance.color}.</li>
         <li>
           <img
             src={`/src/assets/img/${foundMonster.avatar}`}

@@ -1,94 +1,252 @@
 {
-  "monsters":[
+  "monsters": [
     {
-      "id": "f7d67dc2-7d54-4e41-bf12-1a42e5c0ef93",
-      "name": "Spike",
-      "age": 150,
-      "species": "Orc",
-      "abilities": ["Strength", "Agility"],
-      "isEvil": true,
-      "avatar": "spike_avatar.png"
+      "id": "1",
+      "firstName": "James",
+      "lastName": "Sullivan",
+      "class": "Skrövlande",
+      "program": "Skrikstyrka",
+      "description": ["Stor", "Skrovlig", "Hjärtlig"],
+      "appearance": {
+        "numberOfEyes": 2,
+        "numberOfTentacles": 0,
+        "color": "Blå",
+        "skinOrFurType": "Pälsig",
+        "hasHorns": true
+      },
+      "diet": "köttätare",
+      "interests": ["Skratta", "Skrik", "Skrämmande barn"],
+      "courses": ["Skrämselteknik", "Dörrmanövrering", "Skrikhantering"],
+      "grades": [
+        { "course": "Skrämselteknik", "grade": "A+" },
+        { "course": "Dörrmanövrering", "grade": "A-" },
+        { "course": "Skrikhantering", "grade": "B" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "c3a48fb9-94a9-49d4-b902-6a04b77f097f",
-      "name": "Fang",
-      "age": 200,
-      "species": "Dragon",
-      "abilities": ["Fire Breath", "Flight"],
-      "isEvil": true,
-      "avatar": "fang_avatar.jpg"
+      "id": "2",
+      "firstName": "Mike",
+      "lastName": "Wazowski",
+      "class": "Ettöga",
+      "program": "Förtrollningskonst",
+      "description": ["Liten", "Grön", "Entusiastisk"],
+      "appearance": {
+        "numberOfEyes": 1,
+        "numberOfTentacles": 0,
+        "color": "Grön",
+        "skinOrFurType": "Slät",
+        "hasHorns": false
+      },
+      "diet": "allätare",
+      "interests": ["Skämt", "Skratt", "Komedi"],
+      "courses": ["Komikurs", "Klubbstandup", "Slängig humor"],
+      "grades": [
+        { "course": "Komikurs", "grade": "A" },
+        { "course": "Klubbstandup", "grade": "B+" },
+        { "course": "Slängig humor", "grade": "A-" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "ed50e2a3-c66d-4d7e-9d34-7210e76be2ab",
-      "name": "Goblin",
-      "age": 50,
-      "species": "Goblin",
-      "abilities": ["Stealth", "Trickery"],
-      "isEvil": true,
-      "avatar": "goblin_avatar.jpg"
+      "id": "3",
+      "firstName": "Randall",
+      "lastName": "Boggs",
+      "class": "Kameleont",
+      "program": "Kamuflering",
+      "description": ["Slinkig", "Listig", "Avundsjuk"],
+      "appearance": {
+        "numberOfEyes": 2,
+        "numberOfTentacles": 0,
+        "color": "Lila",
+        "skinOrFurType": "Skimrande",
+        "hasHorns": false
+      },
+      "diet": "köttätare",
+      "interests": ["Infiltration", "Skrämma", "Planer"],
+      "courses": ["Kamufleringskurs", "Tystnadsteknik", "Ryckighet"],
+      "grades": [
+        { "course": "Kamufleringskurs", "grade": "B" },
+        { "course": "Tystnadsteknik", "grade": "C+" },
+        { "course": "Ryckighet", "grade": "B-" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "de1c9ab8-5f9f-459d-80f5-64d6a3d1a432",
-      "name": "Troll",
-      "age": 300,
-      "species": "Troll",
-      "abilities": ["Regeneration", "Club Smash"],
-      "isEvil": true,
-      "avatar": "troll_avatar.jpg"
+      "id": "4",
+      "firstName": "Celia",
+      "lastName": "Mae",
+      "class": "Medusa",
+      "program": "Hårsprutning",
+      "description": ["Charmerande", "Stilfull", "Förtrollande"],
+      "appearance": {
+        "numberOfEyes": 50,
+        "numberOfTentacles": 0,
+        "color": "Flerfärgad",
+        "skinOrFurType": "Skälvande",
+        "hasHorns": false
+      },
+      "diet": "allätare",
+      "interests": ["Mode", "Skönhet", "Musik"],
+      "courses": ["Hårvård", "Modevisning", "Sång och dans"],
+      "grades": [
+        { "course": "Hårvård", "grade": "A" },
+        { "course": "Modevisning", "grade": "A-" },
+        { "course": "Sång och dans", "grade": "B" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "d9e3cb0b-b0d8-45b2-a00a-1985f5f7d1cc",
-      "name": "Gnarl",
-      "age": 80,
-      "species": "Gnoll",
-      "abilities": ["Sharp Teeth", "Pack Tactics"],
-      "isEvil": true,
-      "avatar": "gnarl_avatar.jpg"
+      "id": "5",
+      "firstName": "Roz",
+      "lastName": "",
+      "class": "Byråkrat",
+      "program": "Byråkrati",
+      "description": ["Streng", "Sträng", "Många dokument"],
+      "appearance": {
+        "numberOfEyes": 1,
+        "numberOfTentacles": 0,
+        "color": "Grå",
+        "skinOrFurType": "Skrynklig",
+        "hasHorns": false
+      },
+      "diet": "okänd",
+      "interests": ["Byråkrati", "Regler", "Pappersarbete"],
+      "courses": ["Arkivering", "Regelverk", "Pappersarbete"],
+      "grades": [
+        { "course": "Arkivering", "grade": "B+" },
+        { "course": "Regelverk", "grade": "A" },
+        { "course": "Pappersarbete", "grade": "A-" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "eac10169-089d-47e6-b9f8-6a1a2f1fc68b",
-      "name": "Glimmer",
-      "age": 25,
-      "species": "Fairy",
-      "abilities": ["Illusions", "Flight"],
-      "isEvil": false,
-      "avatar": "glimmer_avatar.jpg"
+      "id": "6",
+      "firstName": "George",
+      "lastName": "Sanderson",
+      "class": "Fluffig",
+      "program": "Luriga hårtrix",
+      "description": ["Stor", "Fluffig", "Otursförföljd"],
+      "appearance": {
+        "numberOfEyes": 1,
+        "numberOfTentacles": 0,
+        "color": "Orange",
+        "skinOrFurType": "Pälsig",
+        "hasHorns": false
+      },
+      "diet": "allätare",
+      "interests": ["Hår", "Päls", "Stressbollar"],
+      "courses": ["Hårstylning", "Klumpfällning", "Otursavvärjning"],
+      "grades": [
+        { "course": "Hårstylning", "grade": "A-" },
+        { "course": "Klumpfällning", "grade": "B+" },
+        { "course": "Otursavvärjning", "grade": "C" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "b3a39426-ef0d-48f2-9e02-d21f185d7ae4",
-      "name": "Grump",
-      "age": 180,
-      "species": "Ogre",
-      "abilities": ["Brute Strength", "Intimidation"],
-      "isEvil": true,
-      "avatar": "grump_avatar.jpg"
-    },
-{
-      "id": "f5f4a175-4be3-4b39-8cb1-94a864a009e3",
-      "name": "Whisper",
-      "age": 300,
-      "species": "Ghost",
-      "abilities": ["Invisibility", "Telekinesis"],
-      "isEvil": false,
-      "avatar": "whisper_avatar.jpg"
-    },
-    {
-      "id": "eab0e2d8-85ae-4e9a-ae19-9a3961d7c80a",
-      "name": "Storm",
-      "age": 500,
-      "species": "Elemental",
-      "abilities": ["Thunder", "Lightning"],
-      "isEvil": false,
-      "avatar": "storm_avatar.jpg"
+      "id": "7",
+      "firstName": "Needleman",
+      "lastName": "Needleman",
+      "class": "Dubbelhuvud",
+      "program": "Dörröppning",
+      "description": ["Två huvuden", "Enkla", "Lojala"],
+      "appearance": {
+        "numberOfEyes": 4,
+        "numberOfTentacles": 0,
+        "color": "Brun",
+        "skinOrFurType": "Slemmig",
+        "hasHorns": false
+      },
+      "diet": "okänd",
+      "interests": ["Dörrar", "Öppning", "Stängning"],
+      "courses": ["Dörrhantering", "Dörrteknik", "Öppningsstrategier"],
+      "grades": [
+        { "course": "Dörrhantering", "grade": "B" },
+        { "course": "Dörrteknik", "grade": "B-" },
+        { "course": "Öppningsstrategier", "grade": "C+" }
+      ],
+      "hometown": "Monstropolis"
     },
     {
-      "id": "b9081a1d-750e-4f63-b99c-ee44f4a8929e",
-      "name": "Mystique",
-      "age": 400,
-      "species": "Sorcerer",
-      "abilities": ["Magic", "Teleportation"],
-      "isEvil": true,
-      "avatar": "mystique_avatar.jpg"
+      "id": "8",
+      "firstName": "Roz's",
+      "lastName": "Assistant",
+      "class": "Pappersknugare",
+      "program": "Byråkrati",
+      "description": ["Diskret", "Effektiv", "I bakgrunden"],
+      "appearance": {
+        "numberOfEyes": 2,
+        "numberOfTentacles": 0,
+        "color": "Grå",
+        "skinOrFurType": "Kostym",
+        "hasHorns": false
+      },
+      "diet": "okänd",
+      "interests": ["Arkivering", "Pappersarbete", "Kaffe"],
+      "courses": ["Kaffekokning", "Pappershantering", "Skrivbordsdans"],
+      "grades": [
+        { "course": "Kaffekokning", "grade": "A" },
+        { "course": "Pappershantering", "grade": "A-" },
+        { "course": "Skrivbordsdans", "grade": "B" }
+      ],
+      "hometown": "Monstropolis"
+    },
+    {
+      "id": "9",
+      "firstName": "Charlie",
+      "lastName": "Proctor",
+      "class": "Nattuggla",
+      "program": "Skrikledning",
+      "description": ["Små", "Skygga", "Hårda"],
+      "appearance": {
+        "numberOfEyes": 3,
+        "numberOfTentacles": 0,
+        "color": "Mörkblå",
+        "skinOrFurType": "Fjädrar",
+        "hasHorns": false
+      },
+      "diet": "karnivore",
+      "interests": ["Mörker", "Natt", "Skrämmande ljud"],
+      "courses": ["Nattskrik", "Mörkerhantering", "Nattliga skrämmanden"],
+      "grades": [
+        { "course": "Nattskrik", "grade": "B+" },
+        { "course": "Mörkerhantering", "grade": "A" },
+        { "course": "Nattliga skrämmanden", "grade": "B-" }
+      ],
+      "hometown": "Monstropolis"
+    },
+    {
+      "id": "10",
+      "firstName": "Scott",
+      "lastName": "Squibbles",
+      "class": "Blob",
+      "program": "Skvätt och spratt",
+      "description": ["Geléig", "Klibbig", "Energifull"],
+      "appearance": {
+        "numberOfEyes": 3,
+        "numberOfTentacles": 0,
+        "color": "Ljusgrön",
+        "skinOrFurType": "Gelé",
+        "hasHorns": false
+      },
+      "diet": "allätare",
+      "interests": ["Skvätt", "Spratt", "Majspop"],
+      "courses": ["Gelékurs", "Skvättsteknik", "Popkonst"],
+      "grades": [
+        { "course": "Gelékurs", "grade": "A-" },
+        { "course": "Skvättsteknik", "grade": "B" },
+        { "course": "Popkonst", "grade": "B+" }
+      ],
+      "hometown": "Monstropolis"
     }
+    
+    
+    
+    
+    
+    
+    
+    
   ]
 }
