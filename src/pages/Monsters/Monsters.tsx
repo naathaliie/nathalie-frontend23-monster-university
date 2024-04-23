@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { monsterContext } from "../components/context/MonsterContext";
+import { monsterContext } from "../../components/context/MonsterContext";
 import { NavLink, Outlet } from "react-router-dom";
 
 const Monsters = () => {

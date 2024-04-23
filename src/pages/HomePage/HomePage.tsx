@@ -1,7 +1,6 @@
-import { Home } from "../components/HomePage";
-import NavBar from "../components/NavBar/NavBar";
-import "../pages/ErrorPage";
+import "../ErrorPage/ErrorPage";
 import { Outlet } from "react-router-dom";
+import "./HomePage.scss";
 
 function HomePage() {
   return (

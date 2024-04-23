@@ -1,7 +1,9 @@
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
-import { monsterContext } from "../components/context/MonsterContext";
-import { OneMonster } from "../types/types";
+import { monsterContext } from "../../components/context/MonsterContext";
+import { OneMonster } from "../../types/types";
+import "./Monster.scss";
+import bild from "../../assets/img/spike_avatar.png";
 
 const Monster = () => {
   /* useParams() är en funktion som används för att hämta 
@@ -19,7 +21,7 @@ parametrar från URL:en i en React-applikation. Till exempel,
   const foundMonster: OneMonster | undefined = state.monsters.find((m) => {
     return m.id === params.monsterId;
   });
-
+  console.log("bilden,", bild);
   /*   OM/NÄR vi har hittat det valda monstret och dess värde har tilldelats foundMonster
 först då skall vi rendera ut diven med all info. Innan dess visar vi bara texten Laddar...
  */ return foundMonster ? (
@@ -31,7 +33,10 @@ först då skall vi rendera ut diven med all info. Innan dess visar vi bara text
         <li>Är ond: {foundMonster.isEvil ? "Ja" : "Nej"}</li>
         <li>Speciella förmågor: {foundMonster.abilities.join(", ")}.</li>
         <li>
-          <img src={foundMonster.avatar} alt="bild" />
+          <img
+            src={`/src/assets/img/${foundMonster.avatar}`}
+            alt={foundMonster.avatar}
+          />
         </li>
       </ul>
     </div>

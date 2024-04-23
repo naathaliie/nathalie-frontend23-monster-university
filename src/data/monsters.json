@@ -7,7 +7,7 @@
       "species": "Orc",
       "abilities": ["Strength", "Agility"],
       "isEvil": true,
-      "avatar": "./src/assets/img/spike_avatar.png"
+      "avatar": "spike_avatar.png"
     },
     {
       "id": "c3a48fb9-94a9-49d4-b902-6a04b77f097f",
