@@ -4,8 +4,8 @@ import HomePage from "./pages/HomePage/HomePage.tsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/ErrorPage/ErrorPage.tsx";
-import Monsters from "./pages/Monsters/Monsters.tsx";
-import Monster from "./pages/Monster/Monster.tsx";
+import Monsters from "./pages/Monsters.tsx";
+import Monster from "./pages/Monster.tsx";
 import NavBar from "./components/NavBar/NavBar.tsx";
 
 const router = createBrowserRouter([

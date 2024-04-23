@@ -1,11 +1,11 @@
+import "./MonsterCard.scss";
 import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { monsterContext } from "../../components/context/MonsterContext";
 import { OneMonster } from "../../types/types";
-import "./Monster.scss";
 import bild from "../../assets/img/spike_avatar.png";
 
-const Monster = () => {
+const MonsterCard = () => {
   /* useParams() är en funktion som används för att hämta 
 parametrar från URL:en i en React-applikation. Till exempel,
  om din URL ser ut som "/profile/:userId", så kan useParams() 
@@ -20,7 +20,7 @@ parametrar från URL:en i en React-applikation. Till exempel,
   //Hitta det monster som har samma id som params.monsterId
   const foundMonster: OneMonster | undefined = state.monsters.find((m) => {
     /*     params består av förnamn-efternamn, split("-") skapar en array av strängen i params.monsterId och splittar den till en array med egna element vid varje bindelstreck
-        !efter monsterID släcker felmeddelande om att splitparamsname can be undefined :):)):):)*/
+       !efter monsterID släcker felmeddelande om att splitparamsname can be undefined :):)):):)*/
     const splitParamsName = params.monsterId!.split("-");
 
     if (
@@ -34,8 +34,8 @@ parametrar från URL:en i en React-applikation. Till exempel,
   console.log("bilden,", bild);
   /*   OM/NÄR vi har hittat det valda monstret och dess värde har tilldelats foundMonster
 först då skall vi rendera ut diven med all info. Innan dess visar vi bara texten Laddar...
- */ return foundMonster ? (
-    <div className="Monster">
+*/ return foundMonster ? (
+    <div className="Monster-card">
       {foundMonster.avatar && (
         <img
           src={`/src/assets/img/${foundMonster.avatar}`}
@@ -57,4 +57,4 @@ först då skall vi rendera ut diven med all info. Innan dess visar vi bara text
   );
 };
 
-export default Monster;
+export default MonsterCard;
