@@ -1,31 +1,52 @@
-.Monster-card{
-    
-        animation: Visible 2s forwards;//Forwards gör att animationen "behåller" det sista tillståndet av animationen. Tas detta bort återgår opacity till 0 efter animationen är slut
-        opacity: 0; /* Sätt opacity till 0 för att gömma .monster initialt */
-        border: 2px greenyellow solid;
-        max-width: 50%;
-        position: absolute;
-        top: 5rem;
-        left: 40rem;
-        display: flex;
-        flex-direction: column;
-        
-        img{
-            width: 10rem;
-            height: 10rem;
-        }
-        button{
-            align-self: center;
-            width: 5rem;
+.Monster-card {
+  animation: Visible 1s forwards; //Forwards gör att animationen "behåller" det sista tillståndet av animationen. Tas detta bort återgår opacity till 0 efter animationen är slut
+  opacity: 0; /* Sätt opacity till 0 för att gömma .monster initialt */
+  border: 2px greenyellow solid;
+  display: flex;
 
-            &:hover{
-                background-color: yellow;
-            }
-        }
+  justify-content: space-between;
+  margin: 0rem 10rem 0rem 10rem;
+  min-height: 25rem;
+
+  .profile-pic {
+    img {
+      width: 10rem;
+      height: 10rem;
     }
-    
-    @keyframes Visible {
-        0%{opacity: 0;}
-        100%{opacity: 1;}
-    }  
+    p {
+      text-align: center;
+    }
+  }
+  .info-box {
+    border: solid hotpink 2px;
+    width: 25rem;
+    height: auto;
+    text-align: center;
 
+    ul {
+      list-style: none;
+    }
+  }
+
+  .klicked-info {
+  }
+
+  .btn {
+    &.delete-btn {
+      position: absolute;
+      top: 25rem;
+      left: 10rem;
+      margin: 5px;
+      color: red;
+    }
+  }
+}
+
+@keyframes Visible {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
