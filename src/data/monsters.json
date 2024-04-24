@@ -10,7 +10,7 @@
       "description": ["Stor", "Skrovlig", "Hjärtlig"],
       "appearance": {
         "numberOfEyes": 2,
-        "numberOfTentacles": 0,
+        "numberOfTentacles": 2,
         "color": "Blå",
         "skinOrFurType": "Pälsig",
         "hasHorns": true
