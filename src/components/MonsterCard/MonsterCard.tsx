@@ -3,7 +3,6 @@ import { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { monsterContext } from "../../components/context/MonsterContext";
 import { OneMonster } from "../../types/types";
-import bild from "../../assets/img/spike_avatar.png";
 
 const MonsterCard = () => {
   /* useParams() är en funktion som används för att hämta 
@@ -31,7 +30,6 @@ parametrar från URL:en i en React-applikation. Till exempel,
     }
   });
 
-  console.log("bilden,", bild);
   /*   OM/NÄR vi har hittat det valda monstret och dess värde har tilldelats foundMonster
 först då skall vi rendera ut diven med all info. Innan dess visar vi bara texten Laddar...
 */ return foundMonster ? (
@@ -42,15 +40,7 @@ först då skall vi rendera ut diven med all info. Innan dess visar vi bara text
           alt={foundMonster.avatar}
         />
       )}
-      <ul>
-        <li>
-          Namn: {foundMonster.firstName} {foundMonster.lastName}
-        </li>
-        <li>Typ: {foundMonster.class}</li>
-        <li>Kurs: {foundMonster.program}</li>
-        <li>Egenskaper: {foundMonster.description.join(", ")}</li>
-        <li>Beskrivning: {foundMonster.appearance.color}.</li>
-      </ul>
+      <button>läs mer</button>
     </div>
   ) : (
     <p>Laddar...</p>
